@@ -5,3 +5,14 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+
+<button @onclick=click>Clicked @times</button>
+
+
+
+@code{
+    int times = 0;
+    void click() => times++;
+}
+
